@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+*{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    width: 100%;
+    background-image: linear-gradient(135deg, #040641 10.47%, #3F0753 98.32%);
+    height: 90vh;
+}
+.logo-text{
+    color: white;
+    font-size: 21px;
+}
+.menu-bar{
+    list-style: none;
+    color: white;
+}
+button{
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+} 
+.menu-bar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin:auto;
+}
+.banner-name{
+    font-size: 20px;
+    color: #EF6D58;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px; 
+}
+.btn1{
+    background-color: #EF6D58;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 17px;
+}
+.btn2{
+    background-color: transparent;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 17px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.banner-description{
+    color: #FFFFFF;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
