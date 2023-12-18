@@ -94,3 +94,18 @@ nav{
     flex-direction: column;
     row-gap: 20px;
 }
+.media-link-banner{
+    border: none;
+}
+.banner-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.exprience-title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 56px;
+    text-align: center;
+}
